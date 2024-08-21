@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import android_logo from '@/app/assets/and_logo.png';
 import app_logo from '@/app/assets/app_logo.png'
 import Image from 'next/image';
-import hand_image from '@/app/assets/Wood-Hand.png';
+import hand_image from '@/app/assets/wood-hand.png';
 import qr_code_vect from '@/app/assets/qr-code.png';
 
 import  AOS from 'aos';

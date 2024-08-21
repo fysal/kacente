@@ -46,9 +46,9 @@ const Contact = () => {
           <br /> Plot 2 Lugard Road, Nakasero Hill Kampala Uganda
         </p>
 
-        <div className="grid grid-cols-3 gap-10 w-9/12 mx-auto bg-red relative ">
+        <div className="md:grid grid-cols-3 gap-10 w-full md:w-9/12 mx-auto bg-red relative ">
           {contactInfo.map((cont: any, index: number) => (
-            <div className="border border-slate-200 p-4 rounded-lg" key={index}>
+            <div className="border border-slate-200 p-4 rounded-lg mb-5" key={index}>
               <span className=" bg-blue-400/20 p-2 rounded-md">
                 {cont.icon}
               </span>
