@@ -7,7 +7,7 @@ import Link from 'next/link';
 const Hero = () => {
   return (
     <div className="container mx-auto">
-      <div className="md:grid md:grid-cols-5 order-last item-center justify-between gap-10 text-base-200 min-h-96 w-full mx-auto pt-10 pb-14 md:py-20">
+      <div className="md:grid md:grid-cols-5 order-last item-center justify-between gap-10 min-h-96 w-full mx-auto pt-10 pb-14 md:py-20">
         <div className="hero-content_ col-span-2 px-10 md:px-0">
           <div className="">
             {/* <h1 className="text-1xl ">Kacente payment processing</h1> */}
