@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="">
             {/* <h1 className="text-1xl ">Kacente payment processing</h1> */}
             <h1 className="text-4xl md:text-5xl font-extrabold  leading-tight">
-              Fast and Secure Bank-to-Bank Transfers!
+              Fast and Secure<br/> Bank-to-Bank Transfers!
             </h1>
             <p className="py-6 mb-3">
               Transfer money from one bank to another or from mobile telco
