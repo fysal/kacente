@@ -1,12 +1,13 @@
 import Image from 'next/image';
 import React from 'react'
 import phoneIllustration from '@/app/assets/phone.png';
+import Link from 'next/link';
 
 
 const Hero = () => {
   return (
     <div className="container mx-auto">
-      <div className="md:grid md:grid-cols-5 order-last item-center justify-between gap-10 text-base-200 min-h-96 w-full mx-auto py-20">
+      <div className="md:grid md:grid-cols-5 order-last item-center justify-between gap-10 text-base-200 min-h-96 w-full mx-auto pt-10 pb-14 md:py-20">
         <div className="hero-content_ col-span-2 px-10 md:px-0">
           <div className="">
             {/* <h1 className="text-1xl ">Kacente payment processing</h1> */}
@@ -19,9 +20,15 @@ const Hero = () => {
               <br />
               It&apos;s simple, seamless and secure.
             </p>
-            <button className="primary-bg py-4 px-5 mb-10 md:mb-0 rounded text-white">
-              Get Started
-            </button>
+            <div className=" mb-10 md:mb-0">
+              {" "}
+              <Link
+                href="#how-it-works"
+                className="primary-bg py-4 px-5 rounded text-white"
+              >
+                Get Started
+              </Link>
+            </div>
           </div>
         </div>
         <div className="md:col-span-3 text-center">
