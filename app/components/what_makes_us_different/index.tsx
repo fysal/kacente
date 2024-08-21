@@ -28,7 +28,7 @@ const WhatMakesUsDifferent = () => {
         {" "}
         What makes us different?
       </h5>
-      <div className="text-center font-light  text-slate-400 mb-4">
+      <div className="text-center font-light  text-slate-500 mb-4">
         We have various advantanges that our competitors<br/> do not have and among
         them are
       </div>

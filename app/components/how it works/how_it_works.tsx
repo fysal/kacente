@@ -73,7 +73,7 @@ const HowItWorks = () => {
     {
       step: 3,
       title: "Add receipint",
-      desc: "From January 1st to February 1st",
+      desc: "Add new or choose from existing contacts within the app",
     },
     {
       step: 4,
@@ -83,7 +83,7 @@ const HowItWorks = () => {
     {
       step: 5,
       title: "Confirm and send money",
-      desc: "From January 1st to February 1st",
+      desc: "Verify the amount and send. It's that simple",
     },
   ];
 
@@ -109,7 +109,7 @@ function incrementWithReset() {
   return (
     <div id="how-it-works" className="container mx-auto py-4">
       <h5 className="text-center text-3xl font-semibold mb-5">How it works</h5>
-      <p className="text-center mb-10 text-slate-400">
+      <p className="text-center mb-10 text-slate-600">
         Our goal is to provide a secure, efficient, and cost-effective solution
         <br />
         for all your financial transaction needs.
