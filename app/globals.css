@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --backaground: #1764F9;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,15 +17,34 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  color: #1d232a;
+  background: #fff;
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
+
+.primary-bg{
+  background-color: var(--backaground);
+}
+
+/* .artboard.phone-0 {
+    width: 260px;
+    height: 548px;
+} */
+.artboard.phone-0 {
+    width: 243px;
+    height: 499px;
+}
+
 
 @layer utilities {
   .text-balance {
