@@ -14,12 +14,12 @@ const WhatMakesUsDifferent = () => {
        {
          icon: <MoneyConvertCardTwotone size={iconSize} />,
          title: "Instant bank to bank transfer",
-         desc: "Our app provides seamless instant bank-to-bank transfers, ensuring your funds are securely and quickly moved between accounts with just a few taps",
+         desc: "Experience instant, secure bank-to-bank transfers with just a few quick taps.",
        },
        {
          icon: <MoneyCardAddTwotone size={iconSize} />,
          title: "Friendly transfer rates",
-         desc: "Cashless paymane are now very easy and safe. With us all that can be achieved",
+         desc: "Benefit from friendly, competitive transfer rates on every transaction.",
        },
      ];
   return (
