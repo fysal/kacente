@@ -26,10 +26,13 @@ export default function Home() {
         <Hero />
         <HowItWorks />
         <WhatMakesUsDifferent />
-       <div data-aos="fade"><FinanceHero /></div> 
-       <PersonalizedExperience/>
+        <div data-aos="fade">
+          <FinanceHero />
+        </div>
+        <PersonalizedExperience />
       </div>
-      <Contact/>
+      <Contact />
+    
       <Footer />
     </main>
   );

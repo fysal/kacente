@@ -17,10 +17,10 @@ const Hero = () => {
             <p className="py-6 mb-3">
               Transfer money from one bank to another or from mobile telco
               services with just a few clicks, 24/7 with Kacente.
-              <br />
+              <br/>
               It&apos;s simple, seamless and secure.
             </p>
-            <div className=" mb-10 md:mb-0">
+            <div className=" mb-10 md:mb-0"> 
               {" "}
               <Link
                 href="#how-it-works"
@@ -45,4 +45,4 @@ const Hero = () => {
   );
 }
 
-export default Hero
+export default Hero;

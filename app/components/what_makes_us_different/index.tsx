@@ -19,7 +19,7 @@ const WhatMakesUsDifferent = () => {
        {
          icon: <MoneyCardAddTwotone size={iconSize} />,
          title: "Friendly transfer rates",
-         desc: "Benefit from friendly, competitive transfer rates on every transaction.",
+         desc: " Benefit from lower and friendlier transfer rates on your transactions.",
        },
      ];
   return (
