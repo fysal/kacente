@@ -9,7 +9,7 @@ const Content = () => {
 
      const msv = [
        {
-         title: "Misson",
+         title: "Mission",
          icon:   <NotificationsLampChargeTwotone color={iconColor} />,
          content:
            "To revolutionize the way people manage their daily finances by providing a trustworthy and mobile money transfer application. We are committed to empowering individuals",
