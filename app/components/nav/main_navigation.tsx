@@ -1,8 +1,12 @@
+'use client';
 import React from 'react' 
 import logo from '@/app/assets/kacente-logo.png'
 import Image from 'next/image';
 import Link from 'next/link';
 import About from '../about';
+import Content from '../about/content';
+import { EssetionalCloseCircleOutline } from 'react-icons-sax';
+import MobileContent from '../about/mobile_content';
 const MainNavigation = () => {
 
 
@@ -58,8 +62,23 @@ const MainNavigation = () => {
                       <Link href={link.link}>{link.title}</Link>
                     </li>
                   ))}
+                  <li>
+                    <span
+                      className=""
+                      onClick={() => {
+                        if (document.getElementById("my_modal_5")) {
+                          (
+                            document?.getElementById(
+                              "my_modal_5"
+                            ) as HTMLFormElement
+                          ).showModal();
+                        }
+                      }}
+                    >
+                      About us
+                    </span>
+                  </li>
                 </ul>
-                
               </div>
             </div>
             <Image src={logo.src} width={200} height={10} alt="logo" />
@@ -86,6 +105,7 @@ const MainNavigation = () => {
           </div>
         </div>
       </div>
+<MobileContent/>
     </div>
   );
 }

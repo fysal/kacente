@@ -1,34 +1,33 @@
 import React from 'react'
 import { EssetionalCupTwotone, SecurityEyeTwotone,NotificationsLampChargeTwotone } from 'react-icons-sax';
 
-const Content = () => {
+const Content = ({ padding = "p-20" }: { padding?: string }) => {
+  const iconSize = 12;
 
-     const iconSize=12;
+  const iconColor = "#2563eb";
 
-     const iconColor = "#2563eb";
-
-     const msv = [
-       {
-         title: "Mission",
-         icon:   <NotificationsLampChargeTwotone color={iconColor} />,
-         content:
-           "To revolutionize the way people manage their daily finances by providing a trustworthy and mobile money transfer application. We are committed to empowering individuals",
-       },
-       {
-         title: "vision",
-         icon:  <SecurityEyeTwotone color={iconColor} />,
-         content:
-           "Empowering seamless financial transactions locally and globally, our innovative mobile transaction transfer platform envisions a future where 24-hours accessible, secure and instant",
-       },
-       {
-         title: "values",
-         icon: <EssetionalCupTwotone color={iconColor} /> ,
-         content:
-           "Our innovative mobile money transfer application is founded on the principles of user-centricity, social responsibility, security and accessibility. We are committed to empowering individuals",
-       },
-     ];
+  const msv = [
+    {
+      title: "Mission",
+      icon: <NotificationsLampChargeTwotone color={iconColor} />,
+      content:
+        "To revolutionize the way people manage their daily finances by providing a trustworthy and mobile money transfer application. We are committed to empowering individuals",
+    },
+    {
+      title: "vision",
+      icon: <SecurityEyeTwotone color={iconColor} />,
+      content:
+        "Empowering seamless financial transactions locally and globally, our innovative mobile transaction transfer platform envisions a future where 24-hours accessible, secure and instant",
+    },
+    {
+      title: "values",
+      icon: <EssetionalCupTwotone color={iconColor} />,
+      content:
+        "Our innovative mobile money transfer application is founded on the principles of user-centricity, social responsibility, security and accessibility. We are committed to empowering individuals",
+    },
+  ];
   return (
-    <div className="continer mx-auto p-20 ">
+    <div className={`continer mx-auto ${padding} `}>
       <h2 className="text-4xl md:text-5xl font-bold mb-10">About Kacente</h2>
       <div className="text-base text-slate-700 leading-relaxed mb-14 border-b pb-10">
         Kacente was founded on a technology idea born out of frustration with
@@ -59,8 +58,9 @@ const Content = () => {
       </div>
 
       <div className="text-2xl md:text-3xl font-bold mb-5 leading-loose">
-        At Kacente,<br/> we are committed to revolutionizing the way people transfer
-        money between banks.
+        At Kacente,
+        <br /> we are committed to revolutionizing the way people transfer money
+        between banks.
       </div>
       <div className="text-base text-slate-600">
         Our goal is to provide a secure, efficient, and cost-effective solution
@@ -72,6 +72,6 @@ const Content = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Content;
