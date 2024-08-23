@@ -81,7 +81,7 @@ const MainNavigation = () => {
                 </ul>
               </div>
             </div>
-            <Image src={logo.src} width={200} height={10} alt="logo" />
+            <Image src={logo.src} width={250} height={20} alt="logo" unoptimized />
             {/* <a className="btn btn-ghost text-xl">Kacente</a> */}
           </div>
           <div className="navbar-center hidden lg:flex">
