@@ -11,19 +11,19 @@ const Content = ({ padding = "p-20" }: { padding?: string }) => {
       title: "Mission",
       icon: <NotificationsLampChargeTwotone color={iconColor} />,
       content:
-        "To revolutionize the way people manage their daily finances by providing a trustworthy and mobile money transfer application. We are committed to empowering individuals",
+        "To revolutionize the ease in which people have access to their money. In doing so through the provision of an easy low cost trustworthy mobile money transfer platform that enables the unbanked for financial services. We are committed to empowering individuals.",
     },
     {
       title: "vision",
       icon: <SecurityEyeTwotone color={iconColor} />,
       content:
-        "Empowering seamless financial transactions locally and globally, our innovative mobile transaction transfer platform envisions a future where 24-hours accessible, secure and instant",
+        "Empowering and enabling seamless, immediate and low cost financial transfers locally and globally, our innovative platform envisions a future funds accessibility 24-7, securely and immediately.",
     },
     {
       title: "values",
       icon: <EssetionalCupTwotone color={iconColor} />,
       content:
-        "Our innovative mobile money transfer application is founded on the principles of user-centricity, social responsibility, security and accessibility. We are committed to empowering individuals",
+        "Our innovative platform is founded on the principles of user-eccentricity, social responsibility, security and immediate funds accessibility. We are committed to low cost technology access for individuals.",
     },
   ];
   return (
@@ -57,7 +57,7 @@ const Content = ({ padding = "p-20" }: { padding?: string }) => {
         ))}
       </div>
 
-      <div className="text-2xl md:text-3xl font-bold mb-5 leading-loose">
+      <div className="text-2xl md:text-3xl font-bold mb-5 md:leading-loose">
         At Kacente,
         <br /> we are committed to revolutionizing the way people transfer money
         between banks.
@@ -66,7 +66,7 @@ const Content = ({ padding = "p-20" }: { padding?: string }) => {
         Our goal is to provide a secure, efficient, and cost-effective solution
         for all your financial transaction needs. Join us in the journey towards
         a more connected and financially inclusive future. Don&apos;t miss out
-        on the opportunity to experience a new era of banking. Sign up with Test
+        on the opportunity to experience a new era of banking. Sign up with us
         today and start enjoying seamless bank-to-bank transfers like never
         before!
       </div>

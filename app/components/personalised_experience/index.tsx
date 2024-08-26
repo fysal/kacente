@@ -27,13 +27,13 @@ const PersonalizedExperience = () => {
             Kacente provides a seamless way for users to connect and manage
             multiple bank accounts within a single platform. This feature
             eliminates the hassle of switching between different banking apps or
-            websites when managing your finances. <br /> <br /> By centralizing
-            your financial accounts, Kacente enhances your ability to keep track
-            of all your funds in one place, making your financial life more
+            websites when sending money. <br /> <br /> By centralizing
+            your accounts, Kacente enhances your ability to keep track
+            of all your transactions in one place, making your financial life more
             organized and streamlined. <br /> <br />
             Whether you have accounts with different banks or multiple accounts
             with the same bank, Kacente gives you the power to link them all to
-            your profile, thus simplifying your financial management.
+            your profile, thus simplifying the process of transfering funds from bank to bank immediately and securerly.
             {/* <ul>
               {[
                 "Kacente Empowers you to link multiple bank accounts to your profile, offering enhanced flexibility and convenience",

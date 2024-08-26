@@ -9,7 +9,7 @@ const WhatMakesUsDifferent = () => {
        {
          icon: <MoneyCardsTwotone size={iconSize} />,
          title: "Easiest money transfer",
-         desc: "Cashless paymant are now very easy and safe. With us all that can be achieved",
+         desc: "Cashless paymants are now very easy and safe. With us all that can be achieved",
        },
        {
          icon: <MoneyConvertCardTwotone size={iconSize} />,
