@@ -29,8 +29,7 @@ const PersonalizedExperience = () => {
             eliminates the hassle of switching between different banking apps or
             websites when sending money. <br /> <br /> By centralizing your
             accounts, Kacente enhances your ability to make all your mobile
-            payment transactions in one place, making your financial life more
-            organized and streamlined. <br /> <br />
+            payment transactions in one place. <br /> <br />
             Whether you have accounts with different banks or multiple accounts
             with the same bank, Kacente gives you the power to link them all to
             your profile, thus simplifying the process of transfering funds from
