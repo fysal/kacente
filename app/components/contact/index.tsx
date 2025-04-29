@@ -16,7 +16,7 @@ const Contact = () => {
     {
       title: "Email us",
       icon: <EmailsMessagesSmsOutline className="text-blue-600" size={20} />,
-      text: "info@kuunda.com",
+      text: "",
       caption: "We'll respond with 24 hours",
     },
     {
