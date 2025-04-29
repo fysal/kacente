@@ -9,7 +9,8 @@ const Footer = () => {
         <p>
           Kuunda Financial Technologies.
           <br />
-          Limited Plot 2 Lugard Road, Nakasero Hill Kampala Uganda
+          Kunda Technologies Limited 300867 Bulange Lane,
+          <br /> Namirembe Bakuli, Mengo, Kampala, Uganda.
           <br />
           Copyright © 2024 kacente, All Right Reserved
         </p>
