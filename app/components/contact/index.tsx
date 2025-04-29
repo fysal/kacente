@@ -16,7 +16,7 @@ const Contact = () => {
     {
       title: "Email us",
       icon: <EmailsMessagesSmsOutline className="text-blue-600" size={20} />,
-      text: "info@kacente.com",
+      text: "info@kuunda.com",
       caption: "We'll respond with 24 hours",
     },
     {
@@ -39,7 +39,7 @@ const Contact = () => {
           Get in touch
         </h5>
         <p className="text-center text-slate-500 mb-14">
-          Kunda Technologies Limited 300867 Bulange Lane,
+          Kuunda Technologies Limited 300867 Bulange Lane,
           <br /> Namirembe Bakuli, Mengo, Kampala, Uganda.
         </p>
 
