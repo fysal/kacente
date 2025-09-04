@@ -71,7 +71,7 @@ const HowItWorks = () => {
     },
     {
       step: 3,
-      title: "Add receipint",
+      title: "Add recipient",
       desc: "Add new or choose from existing contacts within the app",
     },
     {
