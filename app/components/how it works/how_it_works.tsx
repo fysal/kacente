@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import Image from "next/image";
 import React, { useMemo, useState } from "react";
 import screenshot from "@/app/assets/screenshot.jpg";
@@ -9,9 +9,8 @@ import short5 from "@/app/assets/short5.jpg";
 import short6 from "@/app/assets/short6.jpg";
 
 const HowItWorks = () => {
-
-  let shorts = [short1,short3,short4,short5,short6]
-  let [activeShort, setactiveShot] = useState<number>(0)
+  let shorts = [short1, short3, short4, short5, short6];
+  let [activeShort, setactiveShot] = useState<number>(0);
   let steps = [
     {
       step: 1,
@@ -39,7 +38,7 @@ const HowItWorks = () => {
     },
     {
       step: 3,
-      title: "Add receipint",
+      title: "Add recipient",
       desc: "From January 1st to February 1st",
     },
     {
@@ -88,23 +87,21 @@ const HowItWorks = () => {
   ];
 
   useMemo(() => {
-incrementWithReset();
-  },[]);
+    incrementWithReset();
+  }, []);
 
-function incrementWithReset() {
-  let counter = 0;
+  function incrementWithReset() {
+    let counter = 0;
 
-  const interval = setInterval(() => {
-
-    counter++;
-    if (counter > 4) {
-      counter = 0;
-       // Reset the counter when it exceeds 6
-    }
-    setactiveShot(counter);
-    
-  }, 3000); // Increment every 1000 milliseconds (1 second)
-}
+    const interval = setInterval(() => {
+      counter++;
+      if (counter > 4) {
+        counter = 0;
+        // Reset the counter when it exceeds 6
+      }
+      setactiveShot(counter);
+    }, 3000); // Increment every 1000 milliseconds (1 second)
+  }
 
   return (
     <div id="how-it-works" className="container mx-auto py-4">
@@ -148,28 +145,24 @@ function incrementWithReset() {
               <li
                 key={index}
                 className="mb-10 flex items-start gap-3 cursor-pointer"
-                onClick={() => setactiveShot(index)}
-              >
+                onClick={() => setactiveShot(index)}>
                 <span
                   className={`font-bold  primary-bg text-white w-9 h-9 rounded-full flex items-center justify-center transition-opacity ease-in-out ${
                     index !== activeShort && "opacity-40"
-                  }`}
-                >
+                  }`}>
                   {step.step}
                 </span>
                 <div>
                   <div
                     className={`text-xl font-semibold mb-2 transition-opacity ease-in-out ${
                       index !== activeShort && "opacity-65"
-                    }`}
-                  >
+                    }`}>
                     {step.title}
                   </div>
                   <div
                     className={`text-sm ${
                       index !== activeShort && "opacity-65"
-                    }`}
-                  >
+                    }`}>
                     {step.desc}
                   </div>
                 </div>
